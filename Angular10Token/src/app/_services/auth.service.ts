@@ -12,6 +12,9 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class AuthService {
+ /*  getUserBoard: any;
+  getModeratorBoard: any;
+  getAdminBoard: any; */
 
   constructor(private http: HttpClient) { }
 
